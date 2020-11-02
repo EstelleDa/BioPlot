@@ -53,6 +53,7 @@ def plot(request):
             global geneList
             geneList = list()
             notMatchGenes = list()
+            global currentSamples
             currentSamples = ['1672MH8C','1672MX24C','1672MY25C', '1672MI9T','1672MK11T','1672MM13T', '2011AC3C',
               '2011AF6C','2011AG7C','2011AH8C','2011AA1T','2011AB2T', '2011AD4T', '2011AE5T',
               '272AG7C','272AP16C','272AW23C','272AZ26C','272AB2T','272ACC29T', '272ADD30T',
